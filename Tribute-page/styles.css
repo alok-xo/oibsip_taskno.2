@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'REM', sans-serif;
+}
+*::selection{
+    color: #000;
+    background-color: #ffffff;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    /* background-image: url(../Tribute-page/peakpx.jpg); */
+    background-image: url('https://w0.peakpx.com/wallpaper/379/24/HD-wallpaper-spacex-planet-earth-elon-musk-planet-space-spacex.jpg');
+    height: 200vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+
+    >.nav img{
+        height: 10vw;
+        position: absolute;
+    }
+
+    >.img1 img {
+        position: absolute;
+        right: 5vw;
+        top: 4vh;
+        height: 35vh;
+        border-radius: 2rem;
+    }
+
+    >.img2 img {
+        position: absolute;
+        left: 5vw;
+        bottom: 9vh;
+        height: 30vh;
+        border-radius: 2rem;
+    }
+
+    >.para1 p {
+        /* padding: 10.5rem 5vw;
+        font-size: 2.3rem;
+        width: 75%;
+        text-transform: uppercase; */
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-size: 1.6vw;
+        font-family: 'Kalam', cursive;
+    }
+
+    >.para2 p {
+        /* padding: 0vw 5vw;
+        font-size: 1.5rem;
+        width: 72%;
+        position: absolute;
+        right: 0;
+        bottom: 14vh; */
+        position: absolute;
+        bottom: -20vh;
+        font-size: 1.2vw;
+        line-height: 3.5vh;
+        padding: 0rem 5rem;
+        text-align: justify;
+        font-weight: 100;
+    }
+}
+h3{
+    position: absolute;
+    right: 45vw;
+    bottom: 7vh;
+    font-weight: 200;
+}
+.spacex{
+    margin-top: 14rem;
+    padding: 1rem;
+    font-weight: 200;
+}
+.tesla, .twitter, .xAI{
+    margin-top: -1.5rem;
+    padding: 1rem;
+    font-weight: 200;
+}
+
